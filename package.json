@@ -1,13 +1,10 @@
 {
   "name": "sonos-tap",
-  "version": "0.0.0",
-  "description": "Tessel project",
+  "version": "0.1.0",
+  "description": "Sonos Tap",
   "main": "index.js",
   "dependencies": {
-    "iohook": "^0.3.0",
-    "johnny-five": "^1.0.0",
-    "sonos": "^1.8.0",
-    "tessel-io": "^1.2.0"
+    "sonos": "^1.8.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,9 +13,5 @@
     "update": "scp db.json pi@192.168.86.100:~/apps/sonos-tap"
   },
   "repository": "git://github.com/ste-vg/sonos-tap.git",
-  "keywords": [
-    "Tessel"
-  ],
-  "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script."
+  "license": "MIT"
 }

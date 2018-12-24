@@ -34,5 +34,29 @@
         "name": "Frozen soundtrack",
         "uri": "spotify:album:2lfqRceJLjF8rSeo5P7SWW",
         "play_mode": "NORMAL"
+    },
+    {
+        "id": "007",
+        "name": "The Beatles: Red Album",
+        "uri": "spotify:album:3rCxVyqwgJlkqL8z2dZdHh",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "008",
+        "name": "The Beatles: Blue Album",
+        "uri": "spotify:album:5UtlwR5GMEM3XrF8GdzMmB",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "009",
+        "name": "First Aid Kit: The Lion's Roar",
+        "uri": "spotify:album:6Z3MfMebUucj95zrHMrbyV",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "010",
+        "name": "Doc McStuffins: The Doc Is In",
+        "uri": "spotify:album:69MUbfppLbJ1dTxKwqmjgE",
+        "play_mode": "NORMAL"
     }
 ]

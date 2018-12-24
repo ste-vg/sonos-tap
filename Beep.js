@@ -10,21 +10,29 @@ class Beep
     {
         this.ready = false;
 
-        this.board = new five.Board({
-            io: new Tessel()
-        });
-
-        this.board.on("ready", () => 
+        if(tessel)
         {
-            this.ready = true;
-            this.piezo = new five.Piezo(0);
-          
-            this.board.repl.inject({
-              piezo: this.piezo
+            this.board = new five.Board({
+                io: new Tessel()
             });
 
-            this.readyBeep();
-        })
+            this.board.on("ready", () => 
+            {
+                this.ready = true;
+                this.piezo = new five.Piezo(0);
+            
+                this.board.repl.inject({
+                piezo: this.piezo
+                });
+
+                this.readyBeep();
+            })
+
+            this.board.on("error", () => 
+            {
+                console.log('not running on tessel?')
+            })
+        }
     }
 
     readyBeep()

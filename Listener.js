@@ -1,6 +1,7 @@
 const settings = require('./settings.json');
-const db = require('./db.json');
+//const db = require('./db.json');
 const readline = require('readline');
+const fs = require("fs");
 
 var ListenerModule = function() {};
 module.exports = ListenerModule;
@@ -10,7 +11,7 @@ class Listener
     constructor()
     {
         this.currentCode = "";
-        this.codes = db.map(item => item.id);
+        //this.codes = db.map(item => item.id);
 
         readline.emitKeypressEvents(process.stdin);
         process.stdin.setRawMode(true);
@@ -42,7 +43,11 @@ class Listener
 
             console.log('checking code', this.code)
 
-            let index = this.codes.indexOf(this.code);
+            var db = fs.readFileSync("db.json");
+            db = JSON.parse(db);
+            let codes = db.map(item => item.id);
+
+            let index = codes.indexOf(this.code);
             if(index > -1 && this.eventFunc)
             {
                 this.eventFunc(db[index]);

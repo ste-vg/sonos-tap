@@ -1,0 +1,38 @@
+[
+    {
+        "id": "001",
+        "name": "Imogen Heap: Ellipse",
+        "uri": "spotify:album:1H8velOQ9zUFqpuQPd2bkO",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "002",
+        "name": "Linkin Park: Hybrid Theory",
+        "uri": "spotify:album:6hPkbAV3ZXpGZBGUvL6jVM",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "003",
+        "name": "Lily Allen: Alright, Still",
+        "uri": "spotify:album:5ySBiY0v4b03yw98oRDKtS",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "004",
+        "name": "Master Playlist",
+        "uri": "spotify:user:steveg3003:playlist:1YgybQVW0UoDxcZ7I5cU9Q",
+        "play_mode": "SHUFFLE"
+    },
+    {
+        "id": "005",
+        "name": "Green Day: American Idiot",
+        "uri": "spotify:album:5dN7F9DV0Qg1XRdIgW8rke",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "006",
+        "name": "Frozen soundtrack",
+        "uri": "spotify:album:2lfqRceJLjF8rSeo5P7SWW",
+        "play_mode": "NORMAL"
+    }
+]

@@ -1,62 +1,68 @@
 [
     {
-        "id": "001",
+        "id": "i",
         "name": "Imogen Heap: Ellipse",
         "uri": "spotify:album:1H8velOQ9zUFqpuQPd2bkO",
         "play_mode": "NORMAL"
     },
     {
-        "id": "002",
+        "id": "l",
         "name": "Linkin Park: Hybrid Theory",
         "uri": "spotify:album:6hPkbAV3ZXpGZBGUvL6jVM",
         "play_mode": "NORMAL"
     },
     {
-        "id": "003",
+        "id": "a",
         "name": "Lily Allen: Alright, Still",
         "uri": "spotify:album:5ySBiY0v4b03yw98oRDKtS",
         "play_mode": "NORMAL"
     },
     {
-        "id": "004",
+        "id": "m",
         "name": "Master Playlist",
         "uri": "spotify:user:steveg3003:playlist:1YgybQVW0UoDxcZ7I5cU9Q",
         "play_mode": "SHUFFLE"
     },
     {
-        "id": "005",
+        "id": "g",
         "name": "Green Day: American Idiot",
         "uri": "spotify:album:5dN7F9DV0Qg1XRdIgW8rke",
         "play_mode": "NORMAL"
     },
     {
-        "id": "006",
+        "id": "f",
         "name": "Frozen soundtrack",
         "uri": "spotify:album:2lfqRceJLjF8rSeo5P7SWW",
         "play_mode": "NORMAL"
     },
     {
-        "id": "007",
+        "id": "b",
         "name": "The Beatles: Red Album",
         "uri": "spotify:album:3rCxVyqwgJlkqL8z2dZdHh",
         "play_mode": "NORMAL"
     },
     {
-        "id": "008",
+        "id": "B",
         "name": "The Beatles: Blue Album",
         "uri": "spotify:album:5UtlwR5GMEM3XrF8GdzMmB",
         "play_mode": "NORMAL"
     },
     {
-        "id": "009",
+        "id": "F",
         "name": "First Aid Kit: The Lion's Roar",
         "uri": "spotify:album:6Z3MfMebUucj95zrHMrbyV",
         "play_mode": "NORMAL"
     },
     {
-        "id": "010",
+        "id": "d",
         "name": "Doc McStuffins: The Doc Is In",
         "uri": "spotify:album:69MUbfppLbJ1dTxKwqmjgE",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "k",
+        "name": "The Kinks: The Singles Collection",
+        "uri": "spotify:album:54poLseqpL2GOY1szCaYWA",
         "play_mode": "NORMAL"
     }
 ]

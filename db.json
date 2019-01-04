@@ -1,68 +1,254 @@
 [
     {
-        "id": "0015005407",
-        "name": "Imogen Heap: Ellipse",
-        "uri": "spotify:album:1H8velOQ9zUFqpuQPd2bkO",
+        "id": "0004198862",
+        "name": "Capital Cities - In a Tidal Wave of Mystery",
+        "uri": "spotify:album:3WrufJir7I61NkvkDwxero",
         "play_mode": "NORMAL"
     },
     {
-        "id": "0002692142",
-        "name": "Linkin Park: Hybrid Theory",
-        "uri": "spotify:album:6hPkbAV3ZXpGZBGUvL6jVM",
+        "id": "0004198859",
+        "name": "Green Day - American Idiot",
+        "uri": "spotify:album:5dN7F9DV0Qg1XRdIgW8rke",
         "play_mode": "NORMAL"
     },
     {
-        "id": "0016023251",
-        "name": "Lily Allen: Alright, Still",
-        "uri": "spotify:album:5ySBiY0v4b03yw98oRDKtS",
+        "id": "0004217725",
+        "name": "The Cardigans - Gran Turismo",
+        "uri": "spotify:album:4gNjfAA5axfUEBbHJoAKBO",
         "play_mode": "NORMAL"
     },
     {
-        "id": "0002590574",
+        "id": "0004191315",
+        "name": "Foo Fighters - The Color and the Shape",
+        "uri": "spotify:album:30ly6F6Xl0TKmyBCU50Khv",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191324",
+        "name": "Dire Straits - Brothers in Arms",
+        "uri": "spotify:album:7jvcSnCnugLcisBCNBm60s",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191338",
+        "name": "Nirvana - Nevermind",
+        "uri": "spotify:album:2guirTSEqLizK7j9i1MTTZ",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191360",
+        "name": "Jeff Wayne - The War of the Worlds",
+        "uri": "spotify:user:steveg3003:playlist:0QVrKEx20CDOhE7UXNJrAq",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191347",
+        "name": "Muse - Black Holes and Revelations",
+        "uri": "spotify:album:0lw68yx3MhKflWFqCsGkIs",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191369",
+        "name": "Jonathan Coulton - JoCo Looks Back",
+        "uri": "spotify:album:0eW4vkDVxqS4U60ExzsKhR",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191382",
+        "name": "Alanis Morissette - Unplugged",
+        "uri": "spotify:album:0LkVxRq8mZbPUaRgEEvxKv",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004217646",
+        "name": "Tally Hall - Marvin's Marvelous Mechanical Museum",
+        "uri": "spotify:album:2TN3NIEBmAOGWmvP96DFs5",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004217690",
+        "name": "Queen - The Platinum Collection",
+        "uri": "spotify:album:52NFKuYav3gArQgbsxiHwS",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004217691",
+        "name": "Frank Turner - England Keep My Bones",
+        "uri": "spotify:album:2UbTlfdv4eOxQTQn9oPeGP",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004217625",
+        "name": "Les Miserables - The Motion Picture Soundtrack ",
+        "uri": "spotify:album:5zf4V2kytJQDkr1lETFsQ7",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004217712",
         "name": "Master Playlist",
         "uri": "spotify:user:steveg3003:playlist:1YgybQVW0UoDxcZ7I5cU9Q",
         "play_mode": "SHUFFLE"
     },
     {
-        "id": "0015968391",
-        "name": "Green Day: American Idiot",
-        "uri": "spotify:album:5dN7F9DV0Qg1XRdIgW8rke",
+        "id": "0004217668",
+        "name": "Frozen - Original Motion Picture Soundtrack",
+        "uri": "spotify:user:steveg3003:playlist:21YrG1YNDBsxcEsBIaWART",
         "play_mode": "NORMAL"
     },
     {
-        "id": "0013296006",
-        "name": "Frozen soundtrack",
-        "uri": "spotify:album:2lfqRceJLjF8rSeo5P7SWW",
+        "id": "0004217647",
+        "name": "Moana - Original Motion Picture Soundtrack",
+        "uri": "spotify:user:steveg3003:playlist:0kRCcy0P6STk8YNRP0UHA7",
         "play_mode": "NORMAL"
     },
     {
-        "id": "0016077312",
-        "name": "The Beatles: Red Album",
-        "uri": "spotify:album:3rCxVyqwgJlkqL8z2dZdHh",
+        "id": "0004282687",
+        "name": "Michael Jackson - Thriller",
+        "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ",
         "play_mode": "NORMAL"
     },
     {
-        "id": "B",
-        "name": "The Beatles: Blue Album",
-        "uri": "spotify:album:5UtlwR5GMEM3XrF8GdzMmB",
+        "id": "0004282709",
+        "name": "Red Hot Chili Peppers- Californication",
+        "uri": "spotify:album:2Y9IRtehByVkegoD7TcLfi",
         "play_mode": "NORMAL"
     },
     {
-        "id": "F",
-        "name": "First Aid Kit: The Lion's Roar",
-        "uri": "spotify:album:6Z3MfMebUucj95zrHMrbyV",
+        "id": "0004282708",
+        "name": "Lorde - Pure Heroine",
+        "uri": "spotify:album:0rmhjUgoVa17LZuS8xWQ3v",
         "play_mode": "NORMAL"
     },
     {
-        "id": "d",
-        "name": "Doc McStuffins: The Doc Is In",
-        "uri": "spotify:album:69MUbfppLbJ1dTxKwqmjgE",
+        "id": "0004282731",
+        "name": "First Aid Kit - Stay Gold",
+        "uri": "spotify:album:6toF7GAattD7gLgqKbY8f9",
         "play_mode": "NORMAL"
     },
     {
-        "id": "k",
-        "name": "The Kinks: The Singles Collection",
+        "id": "0004282730",
+        "name": "Jack Johnson - In Between Dreams",
+        "uri": "spotify:album:7tTc46dNdE6GGuiQsssWxo",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005945263",
+        "name": "Michael Jackson - Bad",
+        "uri": "spotify:album:3Us57CjssWnHjTUIXBuIeH",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004282752",
+        "name": "REM - In Time The Best of REM",
+        "uri": "spotify:album:3UvVHQ31PhSMtI2GIS91Lz",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004282751",
+        "name": "The Audreys - Sometimes the Stars",
+        "uri": "spotify:album:0RXHxqFbm5Yp76FFZPopFy",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004213185",
+        "name": "Blondie - Parallel Lines",
+        "uri": "spotify:album:4M6s2jbhKWEcOdXZ8WiHts",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004282753",
+        "name": "The Bluetones- Expecting to fly",
+        "uri": "spotify:album:3hSEHy0TkvR97XPCBl4F9p",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005945254",
+        "name": "Nick Drake- Five Leaves Left",
+        "uri": "spotify:album:7IpcJbVxLLEfW0KXB7ndE2",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005945482",
+        "name": "Pink Floyd - Wish You Were Here",
+        "uri": "spotify:album:0bCAjiUamIFqKJsekOYuRw",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005945120",
+        "name": "Pink Floyd - Dark Side of the Moon",
+        "uri": "spotify:album:4LH4d3cOWNNsVw41Gqt2kv",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005945142",
+        "name": "Pet Shop Boys - Discography",
+        "uri": "spotify:album:0Jt2LzWgtGxy3GZH5i2Kcy",
+        "play_mode": "SHUFFLE"
+    },
+    {
+        "id": "0005945133",
+        "name": "Take That- Everything Changes",
+        "uri": "spotify:album:5jiZtucaogpggtwqRUgOi8",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191317",
+        "name": "Jeff Buckley- Grace",
+        "uri": "spotify:album:7yQtjAjhtNi76KRu05XWFS",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005945155",
+        "name": "Britney Spears - Greatest Hits: My Prerogative",
+        "uri": "spotify:album:574xhx2X0G9MkqACxqi4cg",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191340",
+        "name": "Matchbox 20 - yourself or someone like you",
+        "uri": "spotify:album:4vUXTcKz7tXxrNl84meN6i",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191322",
+        "name": "Love - Forever Changes",
+        "uri": "spotify:album:2amHBpP8C0EUy6yBNy6nN6",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191345",
+        "name": "Bob Marley and the Wailers: legend",
+        "uri": "spotify:album:4jKeipwuUTjlx9USNYdhZn",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191362",
+        "name": "The Kinks - The Singles Collection",
         "uri": "spotify:album:54poLseqpL2GOY1szCaYWA",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191384",
+        "name": "Pulp - His ‘n’ Hers",
+        "uri": "spotify:album:2HyDLO6tHAOx2QiQr9RLCf",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004191367",
+        "name": "Lou Reed - Transformer",
+        "uri": "spotify:album:5SqbMEyAt8332ISGiLX0St",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004186732",
+        "name": "Mumm-Ra - these things move in threes",
+        "uri": "spotify:album:6Qu9qKapLCRR61bgOulwZy",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004186844",
+        "name": "Dire Straits - Sultans of Swing",
+        "uri": "spotify:album:0NIAlF6F2siflhJAiaKjnf",
         "play_mode": "NORMAL"
     }
 ]

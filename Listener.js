@@ -11,6 +11,8 @@ class Listener
     constructor()
     {
         this.currentCode = "";
+        this.musicEventFunc = null;
+        this.actionsEventFunc = null;
         //this.codes = db.map(item => item.id);
 
         readline.emitKeypressEvents(process.stdin);
@@ -43,21 +45,32 @@ class Listener
 
             console.log('checking code', this.code)
 
-            var db = fs.readFileSync("db.json");
-            db = JSON.parse(db);
-            let codes = db.map(item => item.id);
-
-            let index = codes.indexOf(this.code);
-            if(index > -1 && this.eventFunc)
-            {
-                this.eventFunc(db[index]);
-            }
+            this.checkJSON("db.json", this.musicEventFunc);
+            this.checkJSON("actions.json", this.actionEventFunc);
         }
     }
 
-    onEvent(func)
+    checkJSON(file, func)
     {
-        this.eventFunc = func;
+        var items = fs.readFileSync(file);
+        items = JSON.parse(items);
+        let codes = items.map(item => item.id);
+
+        let index = codes.indexOf(this.code);
+        if(index > -1 && func)
+        {
+            func(items[index]);
+        }
+    }
+
+    onMusicEvent(func)
+    {
+        this.musicEventFunc = func;
+    }
+    
+    onActionEvent(func)
+    {
+        this.actionEventFunc = func;
     }
 }
 

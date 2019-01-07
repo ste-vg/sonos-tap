@@ -6,12 +6,13 @@ const settings = require('./settings.json');
 var EventModule = function() {};
 module.exports = EventModule;
 
-class Event
+class MusicEvent
 {
-    constructor(eventSettings)
+    constructor(musicEvent, state)
     {
-        this.settings = eventSettings;
-        console.log('new event:', this.settings);
+        this.state = state;
+        this.settings = musicEvent;
+        console.log('new music event:', this.settings);
 
         this.stopAll();
     }
@@ -60,11 +61,12 @@ class Event
 
     setVolume()
     {
-        console.log('setting volume to', settings.default_volume)
-        livingRoomSonos.setVolume(settings.default_volume_living_room)
+        let loudness = this.state.volume;
+        console.log('setting volume to', settings.volumes[loudness])
+        livingRoomSonos.setVolume(settings.volumes[loudness].living_room)
             .then(() => 
             {
-                kitchenSonos.setVolume(settings.default_volume_kitchen)
+                kitchenSonos.setVolume(settings.volumes[loudness].kitchen)
                     .then(success => this.play())
                     .catch(err => this.onError(err))
             })
@@ -85,4 +87,60 @@ class Event
     }
 }
 
-module.exports.Event = Event;
+class ActionEvent
+{
+    constructor(eventSettings, state)
+    {
+        this.state = state;
+        this.settings = eventSettings;
+        console.log('new action event:', this.settings);
+        this.parseEvent();
+    }
+
+    parseEvent()
+    {
+        switch(this.settings.action)
+        {
+            case 'KILL_APP':
+                this.killApp();
+                break;
+            case 'VOLUME_LOW':
+                this.setVolume('low');
+                break;
+            case 'VOLUME_MEDIUM':
+                this.setVolume('medium');
+                break;
+            case 'VOLUME_HIGH':
+                this.setVolume('high');
+                break;
+        }
+    }
+
+    killApp()
+    {
+        process.exit(22);
+    }
+
+    setVolume(volume)
+    {
+        this.state.volume = volume;
+        console.log('setting volume to', settings.volumes[volume])
+
+        livingRoomSonos.setVolume(settings.volumes[volume].living_room)
+            .then(() => 
+            {
+                kitchenSonos.setVolume(settings.volumes[volume].kitchen)
+                    .then(success => null)
+                    .catch(err => this.onError(err))
+            })
+            .catch(err => this.onError(err))
+    }
+
+    onError(err)
+    {
+        console.log('Error occurred %j', err)
+    }
+}
+
+module.exports.MusicEvent = MusicEvent;
+module.exports.ActionEvent = ActionEvent;

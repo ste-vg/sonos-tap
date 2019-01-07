@@ -1,0 +1,22 @@
+[
+    {
+        "id": "0012099244",
+        "name": "End app",
+        "action": "KILL_APP"
+    },
+    {
+        "id": "0016077312",
+        "name": "low volume",
+        "action": "VOLUME_LOW"
+    },
+    {
+        "id": "0013296006",
+        "name": "medium volume",
+        "action": "VOLUME_MEDIUM"
+    },
+    {
+        "id": "0016023251",
+        "name": "high volume",
+        "action": "VOLUME_HIGH"
+    }
+]

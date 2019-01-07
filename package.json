@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "zip -r --exclude=*node_modules* --exclude=*.git* app.zip . && scp app.zip pi@192.168.86.100:~/apps/sonos-tap",
-    "update": "scp db.json pi@192.168.86.100:~/apps/sonos-tap"
+    "music": "scp db.json pi@192.168.86.100:~/apps/sonos-tap",
+    "settings": "scp settings.json pi@192.168.86.100:~/apps/sonos-tap",
+    "actions": "scp actions.json pi@192.168.86.100:~/apps/sonos-tap"
   },
   "repository": "git://github.com/ste-vg/sonos-tap.git",
   "license": "MIT"

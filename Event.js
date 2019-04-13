@@ -1,7 +1,7 @@
-const Sonos = require('sonos').Sonos
-const kitchenSonos = new Sonos(process.env.SONOS_HOST || '192.168.86.25')
-const livingRoomSonos = new Sonos(process.env.SONOS_HOST || '192.168.86.24')
 const settings = require('./settings.json');
+const Sonos = require('sonos').Sonos
+const kitchenSonos = new Sonos(process.env.SONOS_HOST || settings.sonos.kitchen.ip)
+const livingRoomSonos = new Sonos(process.env.SONOS_HOST || settings.sonos.livingRoom.ip)
 
 var EventModule = function() {};
 module.exports = EventModule;
@@ -33,13 +33,13 @@ class MusicEvent
     {
         console.log('setting group');
 
-        const deviceToJoin = 'Living Room'
-        kitchenSonos.joinGroup(deviceToJoin)
+        const deviceToJoin = settings.sonos.kitchen.name
+        livingRoomSonos.joinGroup(deviceToJoin)
             .then(success => {
                 console.log('Joining %s is a %s', deviceToJoin, (success ? 'Success' : 'Failure'));
                 this.clearCurrentQueue();
             })
-            .catch(err => this.onError(err)) 
+            .catch(err => this.onError(err), this.clearCurrentQueue()) 
     }
 
     clearCurrentQueue()

@@ -1,4 +1,14 @@
 {
+    "sonos": {
+        "livingRoom": {
+            "ip": "192.168.86.24",
+            "name": "Living Room"
+        },
+        "kitchen": {
+            "ip": "192.168.86.25",
+            "name": "Kitchen"
+        }
+    },
     "code_length": 10,
     "default_volume": "medium",
     "volumes":

@@ -16,6 +16,6 @@ state = {
 listener.onMusicEvent(event => currentMusicEvent = event ? new MusicEvent(event, state) : null);
 listener.onActionEvent(event => currentActionEvent = event ? new ActionEvent(event, state) : null);
 
-setTimeout(() => {
-    let test = new MusicEvent(db[0], state);
-}, 1000)
+// setTimeout(() => {
+//     let test = new MusicEvent(db[0], state);
+// }, 1000)

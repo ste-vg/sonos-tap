@@ -1,29 +1,36 @@
 {
-    "sonos": {
-        "livingRoom": {
-            "ip": "192.168.86.24",
-            "name": "Living Room"
+    "sonos": [
+        {
+            "ip": "192.168.86.108",
+            "name": "Living Room Right"
         },
-        "kitchen": {
+        {
+            "ip": "192.168.86.24",
+            "name": "Living Room Left"
+        },
+        {
             "ip": "192.168.86.25",
             "name": "Kitchen"
         }
-    },
+    ],
     "code_length": 10,
     "default_volume": "medium",
     "volumes":
     {
         "high": {
-            "living_room" : 20,
-            "kitchen" : 20
+            "192.168.86.108" : 20,
+            "192.168.86.24" : 20,
+            "192.168.86.25" : 20
         },
         "medium": {
-            "living_room" : 10,
-            "kitchen" : 10
+            "192.168.86.108" : 10,
+            "192.168.86.24" : 10,
+            "192.168.86.25" : 10
         },
         "low": {
-            "living_room" : 5,
-            "kitchen" : 5
+            "192.168.86.108" : 5,
+            "192.168.86.24" : 5,
+            "192.168.86.25" : 5
         }
     }
 }

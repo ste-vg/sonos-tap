@@ -5,7 +5,17 @@
         "action": "KILL_APP"
     },
     {
+        "id": "xxxxxxxxxx",
+        "name": "End app",
+        "action": "KILL_APP"
+    },
+    {
         "id": "0016077312",
+        "name": "low volume",
+        "action": "VOLUME_LOW"
+    },
+    {
+        "id": "llllllllll",
         "name": "low volume",
         "action": "VOLUME_LOW"
     },
@@ -15,7 +25,17 @@
         "action": "VOLUME_MEDIUM"
     },
     {
+        "id": "mmmmmmmmmm",
+        "name": "medium volume",
+        "action": "VOLUME_MEDIUM"
+    },
+    {
         "id": "0016023251",
+        "name": "high volume",
+        "action": "VOLUME_HIGH"
+    },
+    {
+        "id": "hhhhhhhhhh",
         "name": "high volume",
         "action": "VOLUME_HIGH"
     }

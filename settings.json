@@ -1,16 +1,16 @@
 {
     "sonos": [
         {
+            "ip": "192.168.86.25",
+            "name": "Kitchen"
+        },
+        {
             "ip": "192.168.86.108",
             "name": "Living Room Right"
         },
         {
             "ip": "192.168.86.24",
             "name": "Living Room Left"
-        },
-        {
-            "ip": "192.168.86.25",
-            "name": "Kitchen"
         }
     ],
     "code_length": 10,

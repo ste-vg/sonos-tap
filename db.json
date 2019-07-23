@@ -346,5 +346,89 @@
         "name": "Jamiroquai - Synkronized",
         "uri": "spotify:album:3JB06rUbAbdK0QEyDM0YKI",
         "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010803217",
+        "name": "Muse - Showbiz",
+        "uri": "spotify:album:6AyUVv7MnxxTuijp4WmrhO",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010803347",
+        "name": "Muse - Origin of Symmetry",
+        "uri": "spotify:album:1AP6uGYHdakRgwuWQsP5pK",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010803549",
+        "name": "Doc McStuffins",
+        "uri": "spotify:playlist:4lQWl3RBi58sEW3bsdmR4Y",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010805203",
+        "name": "Elton John - Diamonds",
+        "uri": "spotify:album:1uzIyRT1QxDx4fMIX0UiAE",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010804791",
+        "name": "The Beatles",
+        "uri": "spotify:user:chelle1002:playlist:53YwCud9vi8OgX7lDWVMxU",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010803081",
+        "name": "Foo Fighters - There is Nothing Left to Lose",
+        "uri": "spotify:album:28q2N44ocJECgf8sbHEDfY",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010804584",
+        "name": "Foo Fighters - Foo Fighters",
+        "uri": "spotify:album:4EnNuo8fG7dMoxMefbApRY",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010804377",
+        "name": "Bush - The Science of Things",
+        "uri": "spotify:album:3g8X1UPYeOQONtYJyy2F1h",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010803756",
+        "name": "Bush - Razorblade Suitcase",
+        "uri": "spotify:album:0cNS82YnJYNHYTZ7qGk58d",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010804997",
+        "name": "Suede - Suede",
+        "uri": "spotify:user:chelle1002:playlist:0NiuDWJ25ZFQjbvK09GQhw",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010800371",
+        "name": "Eminem - The Marshall Mathers LP",
+        "uri": "spotify:album:6t7956yu5zYf5A829XRiHC",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010803963",
+        "name": "CHVRCHES - The Bones of What You Believe",
+        "uri": "spotify:album:7mYtNRrdUIZZymc5epjYHE",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010800579",
+        "name": "The Streets - Original Pirate Material",
+        "uri": "spotify:album:6HAJ0LRCEqJeaCDm2lSsq8",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010800787",
+        "name": "The Strokes - Is This It",
+        "uri": "spotify:album:2k8KgmDp9oHrmu0MIj4XDE",
+        "play_mode": "NORMAL"
     }
 ]

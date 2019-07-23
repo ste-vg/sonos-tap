@@ -1,7 +1,14 @@
 const settings = require('./settings.json');
 const Sonos = require('sonos').Sonos;
+const hue = require("node-hue-api");
+const HueApi = hue.HueApi;
 
 const sonoses = settings.sonos.map(s => new Sonos(s.ip));
+
+const host = "192.168.0.2";
+const username = "ollcM6-Lq4gu26VsXdEZUd-ts5PldIOsVxhdht6K";
+const api = new HueApi(host, username);
+const lightState = hue.lightState;
 
 function setAvailabilty(sonos)
 {
@@ -10,7 +17,7 @@ function setAvailabilty(sonos)
     sonos.getVolume()
         .then(volume => {
             sonos.available = true;
-            console.log(sonos.host, 'is available');
+            console.log(sonos.host, 'is available, volume is', volume);
         })
         .catch(error => {
             console.log(sonos.host, 'UNAVAILABLE');
@@ -24,7 +31,7 @@ function checkAllSonos()
 
 function getAvailableSonos()
 {
-    return sonoses.filter(sonos => sonos.available);
+    return [ ...sonoses.filter(sonos => sonos.available) ];
 }
 
 setInterval(() => {
@@ -36,11 +43,14 @@ checkAllSonos();
 var EventModule = function() {};
 module.exports = EventModule;
 
+
+
 class MusicEvent
 {
     constructor(musicEvent, state)
     {
         this.state = state;
+        this.lightState = lightState.create().alertShort();
         this.settings = musicEvent;
         this.order = [];
         this.leader = null;
@@ -52,8 +62,8 @@ class MusicEvent
         console.log('init');
 
         this.order = [
+            //'startLight',
             'stopAll',
-           // 'clearGroups',
             'setGroup',
             'clearCurrentQueue',
             'populateQueue',
@@ -61,11 +71,14 @@ class MusicEvent
             'setPlayMode',
             'selectFirstSong',
             'setVolume',
-            'play'
+            'play',
+            //'completeLight'
         ]
         
         this.next();
     }
+
+    
 
     next()
     {
@@ -80,13 +93,22 @@ class MusicEvent
         }
     }
 
+    startLight()
+    {
+        api.setLightState(5, this.lightState) 
+            .then(() => this.next())
+    }
+
     stopAll()
     {
         console.log('stopping all')
 
         Promise.all(getAvailableSonos().map(s => s.stop()))
             .then(() => this.next())
-            .catch(err => console.log(err)) 
+            .catch(err => {
+                console.log(err)
+                this.next();
+            }) 
     }
 
     clearGroups()
@@ -98,20 +120,20 @@ class MusicEvent
             .catch(err => console.log(err)) 
     }
 
-    getAllGroups()
-    {
-        Promise.all(getAvailableSonos().map(s => s.getAllGroups()))
-            .then(result => this.next())
-            .catch(err => console.log(err)) 
-    }
+    // getAllGroups()
+    // {
+    //     Promise.all(getAvailableSonos().map(s => s.getAllGroups()))
+    //         .then(result => this.next())
+    //         .catch(err => console.log(err)) 
+    // }
 
-    getZoneInfo()
-    {
+    // getZoneInfo()
+    // {
         
-        Promise.all(getAvailableSonos().map(s => s.getZoneInfo()))
-            .then(result => this.next())
-            .catch(err => console.log(err)) 
-    }
+    //     Promise.all(getAvailableSonos().map(s => s.getZoneInfo()))
+    //         .then(result => this.next())
+    //         .catch(err => console.log(err)) 
+    // }
 
     setGroup()
     {
@@ -127,7 +149,7 @@ class MusicEvent
                     console.log(`grouping all sonos to ${name}...`);
                     Promise.all(s.map(s => {
                         console.log(`grouping ${s.host} to ${this.leader.host}`)
-                        s.joinGroup(name);
+                        return s.joinGroup(name).catch(err => console.log(err));
                     }))
                         .then(success => this.next())
                         .catch(err => this.onError(err)) 
@@ -208,6 +230,12 @@ class MusicEvent
                 .then(success => this.next())
                 .catch(err => this.onError(err))
         }, 100);
+    }
+
+    completeLight()
+    {
+        api.setLightState(4, this.lightState) 
+            .then(() => this.next())
     }
 
     onError(err)

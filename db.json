@@ -250,5 +250,101 @@
         "name": "Dire Straits - Sultans of Swing",
         "uri": "spotify:album:0NIAlF6F2siflhJAiaKjnf",
         "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005960895",
+        "name": "The BeatBuds - Volumes 1, 2 and 3",
+        "uri": "spotify:playlist:4AcQTOco1Vd1bWntxHyvNd",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005960898",
+        "name": "Alanis Morissette - Jagged Little Pill",
+        "uri": "spotify:album:09AwlP99cHfKVNKv4FC8VW",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005929815",
+        "name": "Alanis Morissette - Supposed Former Infatuation Junkie",
+        "uri": "spotify:album:2QXT4rGSfqjqfgpZ059yKp",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0005960876",
+        "name": "The Prodigy - The Fat of the Land",
+        "uri": "spotify:album:5ruKe5L3QJcvnQCT5RHKVr",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004208688",
+        "name": "Kids Playlist",
+        "uri": "spotify:playlist:5p1viIoHmGJXkkyThmIYrR",
+        "play_mode": "SHUFFLE"
+    },
+    {
+        "id": "0004208675",
+        "name": "Bastille - Bad Blood",
+        "uri": "spotify:album:64fQ94AVziavTPdnkCS6Nj",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004186725",
+        "name": "David Bowie - Hunky Dory",
+        "uri": "spotify:album:6fQElzBNTiEMGdIeY0hy5l",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0004208697",
+        "name": "Linkin Park - Hybrid Theory",
+        "uri": "spotify:album:2pKw6GERJVAD61449B1EEM",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010828090",
+        "name": "Sunna - One Minute Science",
+        "uri": "spotify:album:3W5C0852rgSRCYkU3Fq60f",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010835999",
+        "name": "Elizabeth and the Catapult - The Other Side of Zero",
+        "uri": "spotify:album:3ve0eaIDYO87hVTDGondOJ",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010802248",
+        "name": "Garbage - Version 2.0",
+        "uri": "spotify:album:6HwtpXhzOiE4fqnW785Mk7",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010828271",
+        "name": "Garbage - Garbage",
+        "uri": "spotify:album:5oBySdXAQniFqWOgxPWQSs",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010802665",
+        "name": "Lily Allen - Alright, Still",
+        "uri": "spotify:album:3nxPzWEJBjzonYWtTNb0uY",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010802457",
+        "name": "Jimmy Eat World - Bleed American",
+        "uri": "spotify:album:0UJhhj5bn5AGAjryFnhueP",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010802873",
+        "name": "Jamiroquai - Travelling Without Moving",
+        "uri": "spotify:playlist:5GznrAddEucM3y29HhDIJy",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0010802039",
+        "name": "Jamiroquai - Synkronized",
+        "uri": "spotify:album:3JB06rUbAbdK0QEyDM0YKI",
+        "play_mode": "NORMAL"
     }
 ]

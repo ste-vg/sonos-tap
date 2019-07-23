@@ -4,10 +4,12 @@
   "description": "Sonos Tap",
   "main": "index.js",
   "dependencies": {
+    "node-hue-api": "^2.4.6",
     "sonos": "^1.12.0"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "zip -r --exclude=*node_modules* --exclude=*.git* app.zip . && scp app.zip pi@192.168.86.100:~/apps/sonos-tap",
     "music": "scp db.json pi@192.168.86.100:~/apps/sonos-tap",

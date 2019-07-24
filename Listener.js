@@ -3,6 +3,8 @@ const settings = require('./settings.json');
 const readline = require('readline');
 const fs = require("fs");
 
+const Lights = require('./Lights').Lights;
+
 var ListenerModule = function() {};
 module.exports = ListenerModule;
 
@@ -18,6 +20,7 @@ class Listener
         readline.emitKeypressEvents(process.stdin);
         process.stdin.setRawMode(true);
 
+        this.lights = new Lights(() => this.lights.onStartUp() )
         console.log('ready');
         process.stdin.on('keypress', (str, key) => this.onKey(str, key))
     }

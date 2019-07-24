@@ -2,13 +2,8 @@ const settings = require('./settings.json');
 const Sonos = require('sonos').Sonos;
 const hue = require("node-hue-api");
 const HueApi = hue.HueApi;
-
+const Lights = require('./Lights').Lights;
 const sonoses = settings.sonos.map(s => new Sonos(s.ip));
-
-const host = "192.168.0.2";
-const username = "ollcM6-Lq4gu26VsXdEZUd-ts5PldIOsVxhdht6K";
-const api = new HueApi(host, username);
-const lightState = hue.lightState;
 
 function setAvailabilty(sonos)
 {
@@ -50,11 +45,17 @@ class MusicEvent
     constructor(musicEvent, state)
     {
         this.state = state;
-        this.lightState = lightState.create().alertShort();
+
         this.settings = musicEvent;
         this.order = [];
         this.leader = null;
-        this.init();
+
+        this.lights = new Lights(() => this.onLightsReady() )
+    }
+
+    onLightsReady()
+    {
+        this.init()
     }
 
     init()
@@ -62,7 +63,7 @@ class MusicEvent
         console.log('init');
 
         this.order = [
-            //'startLight',
+            'startLight',
             'stopAll',
             'setGroup',
             'clearCurrentQueue',
@@ -72,7 +73,7 @@ class MusicEvent
             'selectFirstSong',
             'setVolume',
             'play',
-            //'completeLight'
+            'completeLight'
         ]
         
         this.next();
@@ -95,8 +96,8 @@ class MusicEvent
 
     startLight()
     {
-        api.setLightState(5, this.lightState) 
-            .then(() => this.next())
+        this.lights.onStart();
+        this.next();
     }
 
     stopAll()
@@ -117,7 +118,7 @@ class MusicEvent
 
         Promise.all(getAvailableSonos().map(s => s.leaveGroup()))
             .then(result => this.next())
-            .catch(err => console.log(err)) 
+            .catch(err => this.onError(err)) 
     }
 
     // getAllGroups()
@@ -173,7 +174,7 @@ class MusicEvent
 
         this.leader.flush()
             .then(result => this.next())
-            .catch(err => console.log(err)) 
+            .catch(err => this.onError(err)) 
     }
     
     selectQueue()
@@ -182,7 +183,7 @@ class MusicEvent
 
         this.leader.selectQueue()
             .then(result => this.next())
-            .catch(err => console.log(err)) 
+            .catch(err => this.onError(err)) 
     }
  
     populateQueue()
@@ -191,7 +192,7 @@ class MusicEvent
 
         this.leader.queue(this.settings.uri)
             .then(result => this.next())
-            .catch(err => console.log(err)) 
+            .catch(err => this.onError(err)) 
     }
 
 
@@ -234,12 +235,13 @@ class MusicEvent
 
     completeLight()
     {
-        api.setLightState(4, this.lightState) 
-            .then(() => this.next())
+        this.lights.onEnd();
+        this.next();
     }
 
     onError(err)
     {
+        this.lights.onError();
         console.log('Error occurred %j', err)
     }
 }
@@ -251,11 +253,14 @@ class ActionEvent
         this.state = state;
         this.settings = eventSettings;
         console.log('new action event:', this.settings);
-        this.parseEvent();
+        this.lights = new Lights(() => this.parseEvent() )
+        //this.parseEvent();
     }
 
     parseEvent()
     {
+        this.lights.onStart();
+        
         switch(this.settings.action)
         {
             case 'KILL_APP':

@@ -18,11 +18,12 @@ class Listener
         //this.codes = db.map(item => item.id);
 
         readline.emitKeypressEvents(process.stdin);
-        process.stdin.setRawMode(true);
-
+        console.log(process.stdin.setRawMode);
+        
+        if(process.stdin.setRawMode) process.stdin.setRawMode(true); 
         this.lights = new Lights(() => this.lights.onStartUp() )
         console.log('ready');
-        process.stdin.on('keypress', (str, key) => this.onKey(str, key))
+        process.stdin.on('keypress', (str, key) => this.onKey(str, key));
     }
 
     onKey(str, key)

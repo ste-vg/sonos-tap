@@ -10,12 +10,22 @@
         "action": "KILL_APP"
     },
     {
+        "id": "0002980396",
+        "name": "End app",
+        "action": "KILL_APP"
+    },
+    {
         "id": "0016077312",
         "name": "low volume",
         "action": "VOLUME_LOW"
     },
     {
         "id": "llllllllll",
+        "name": "low volume",
+        "action": "VOLUME_LOW"
+    },
+    {
+        "id": "0002962973",
         "name": "low volume",
         "action": "VOLUME_LOW"
     },
@@ -30,6 +40,11 @@
         "action": "VOLUME_MEDIUM"
     },
     {
+        "id": "0005678235",
+        "name": "medium volume",
+        "action": "VOLUME_MEDIUM"
+    },
+    {
         "id": "0016023251",
         "name": "high volume",
         "action": "VOLUME_HIGH"
@@ -38,5 +53,20 @@
         "id": "hhhhhhhhhh",
         "name": "high volume",
         "action": "VOLUME_HIGH"
+    },
+    {
+        "id": "0002975881",
+        "name": "high volume",
+        "action": "VOLUME_HIGH"
+    },
+    {
+        "id": "hhhhhhhhhh",
+        "name": "high volume",
+        "action": "VOLUME_HIGH"
+    },
+    {
+        "id": "0002983098",
+        "name": "Play / Pause",
+        "action": "TOGGLE_PLAYBACK"
     }
 ]

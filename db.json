@@ -369,13 +369,13 @@
         "id": "0010805203",
         "name": "Elton John - Diamonds",
         "uri": "spotify:album:1uzIyRT1QxDx4fMIX0UiAE",
-        "play_mode": "NORMAL"
+        "play_mode": "SHUFFLE"
     },
     {
         "id": "0010804791",
         "name": "The Beatles",
         "uri": "spotify:user:chelle1002:playlist:53YwCud9vi8OgX7lDWVMxU",
-        "play_mode": "NORMAL"
+        "play_mode": "SHUFFLE"
     },
     {
         "id": "0010803081",
@@ -646,5 +646,269 @@
         "name": "The Breeders - Title TK",
         "uri": "spotify:album:2tLSzOYw94Pi9yyqJJV4OX",
         "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008020628",
+        "name": "Jazz",
+        "uri": "spotify:user:1cvmgde4qkljm5l4lf6okbgb6:playlist:76aiukHnCD4SZyndrgmAQD",
+        "play_mode": "SHUFFLE"
+    },
+    {
+        "id": "0007991645",
+        "name": "Otis Redding - Otis Blue",
+        "uri": "spotify:album:2P0TLZSGxpDmYdp16bI4hv",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008861807",
+        "name": "Country Got Soul",
+        "uri": "spotify:user:1cvmgde4qkljm5l4lf6okbgb6:playlist:1itjXJXsudtqt0fhMbnM93",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008006037",
+        "name": "90’s Dance",
+        "uri": "spotify:user:1cvmgde4qkljm5l4lf6okbgb6:playlist:6id2CY2k4jeWNGyV1Bd9n8",
+        "play_mode": "SHUFFLE"
+    },
+    {
+        "id": "0008861207",
+        "name": "Primal Scream - Screamadelica",
+        "uri": "spotify:album:4TECsw2dFHZ1ULrT7OA3OL",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008857782",
+        "name": "Solomon Burke - Don’t Give Up On Me",
+        "uri": "spotify:album:5fPt2yO2JG9ymtO1PNz5iK",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008862613",
+        "name": "Super Furry Animals - Fuzzy Logic",
+        "uri": "spotify:user:1cvmgde4qkljm5l4lf6okbgb6:playlist:1NBQBLz4fadiYO6csHiOkj",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0013590295",
+        "name": "The Killers - Hot Fuss",
+        "uri": "spotify:album:4undIeGmofnAYKhnDclN1w",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008857224",
+        "name": "The Audreys - Between Last Night and Us",
+        "uri": "spotify:album:4nSqu05g7Z5KydL9lDrcSj",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008858203",
+        "name": "Coldplay - A Rush of Blood to the Head",
+        "uri": "spotify:album:0RHX9XECH8IVI3LNgWDpmQ",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008863019",
+        "name": "Manu Chao - Proxima Estacion: Esperanza",
+        "uri": "spotify:album:4t1LLdXiWTfoywqricztFo",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008864300",
+        "name": "Mercury Rev - All Is Dream",
+        "uri": "spotify:album:2hkftTJEwsfzWdeJt935mq",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0013590553",
+        "name": "Justin Timberlake - FutureSex/LoveSounds",
+        "uri": "spotify:album:2scB1uhcCI1TSf6b9TCZK3",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008862209",
+        "name": "Fugees - The Score",
+        "uri": "spotify:user:1cvmgde4qkljm5l4lf6okbgb6:playlist:3ApTpcWWLnqhDHDvQn5DBU",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008863223",
+        "name": "Frank Turner - Tape Deck Heart",
+        "uri": "spotify:album:6CEOMDFTAWceOUHBux3YS2",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008857595",
+        "name": "Nick Drake - Bryter Layter",
+        "uri": "spotify:album:04FfqGvZJ9oUBGRVrq2FE5",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008858077",
+        "name": "Stereophonics - Performance and Cocktails",
+        "uri": "spotify:album:3L8K0FWsWGSHvYj56skH00",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008857409",
+        "name": "Bright Eyes - I’m Wide Awake, It’s Morning",
+        "uri": "spotify:album:5msfCyqu8fJYqDDV6OrXTg",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008863427",
+        "name": "Avril Lavigne - Let Go",
+        "uri": "spotify:album:3zXjR3y2dUWklKmmp6lEhy",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008862411",
+        "name": "Amy Winehouse - Back to Black",
+        "uri": "spotify:album:097eYvf9NKjFnv4xA9s2oV",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0008862816",
+        "name": "Buddy Guy - Damn Right, I’ve Got the Blues",
+        "uri": "spotify:album:7IxnFL0kaVSqs9iy9qSqPj",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0013590423",
+        "name": "Bob Dylan - The Freewheelin’",
+        "uri": "spotify:album:0o1uFxZ1VTviqvNaYkTJek",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008864094",
+        "name": "Bob Dylan - Bringing It All Back Home",
+        "uri": "spotify:album:1lPoRKSgZHQAYXxzBsOQ7v",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007423873",
+        "name": "Ryan Adams - Heartbreaker",
+        "uri": "spotify:album:7hmZCaBzp6mVrelxW6Ckrn",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008002984",
+        "name": "Frank Turner - No Man’s Land",
+        "uri": "spotify:album:2sgJ0cMvYNIiiArcntpa5g",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007419575",
+        "name": "Eels - Beautiful Freak",
+        "uri": "spotify:album:7sqwuxORaCogFGgygafdSt",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007420169",
+        "name": "Eels - Shootenanny!",
+        "uri": "spotify:album:3g7Bj0TkxIZWtP0ZBCTaV4",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007416097",
+        "name": "Flight of the Conchords - Flight of the Conchords",
+        "uri": "spotify:album:4iXilUplgTLmXfoVRHRIVq",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007415552",
+        "name": "Prince - Purple Rain",
+        "uri": "spotify:album:7nXJ5k4XgRj5OLg9m8V3zc",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007409396",
+        "name": "Prince - Dirty Mind",
+        "uri": "spotify:album:3Cijd5OjHeWBm97DsPHpgs",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007408439",
+        "name": "System of a Down - Toxicity",
+        "uri": "spotify:album:6jWde94ln40epKIQCd8XUh",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007409057",
+        "name": "The Doors - The Doors",
+        "uri": "spotify:album:1jWmEhn3ggaL6isoyLfwBn",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007408671",
+        "name": "The Avett Brothers - Four Thieves Gone - The Robbinsville Sessions",
+        "uri": "spotify:album:30dtZbxhsLXOdbvawtu4O7",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007410945",
+        "name": "Family of the Year - Loma Vista",
+        "uri": "spotify:album:14SCnv027L0HidHq0URIDu",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007985411",
+        "name": "Mumford & Sons - Sigh No More",
+        "uri": "spotify:album:6w5W6ZGTvDsppKUOiGMuMo",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008863888",
+        "name": "Mumford & Sons - Babel",
+        "uri": "spotify:album:4QVDwpWrDPF2vUjlTHfRjr",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008862008",
+        "name": "Miles Davis - Kind of Blue",
+        "uri": "spotify:album:1weenld61qoidwYuZ1GESA",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008861008",
+        "name": "Robert Randolph and the Family Band - Unclassified",
+        "uri": "spotify:album:1bzshLWwMYoSQdLXa7HZn8",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0013590169",
+        "name": "Nina Simone - Feeling Good: The Very Best of Nina Simone",
+        "uri": "spotify:album:153rN9N6f7HMJFQqyCrgHJ",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0007411976",
+        "name": "Nick Cave & The Bad Seeds - The Boatman’s Call",
+        "uri": "spotify:album:4Gp9Ls1UqkrQRrTTxhvs6A",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008000765",
+        "name": "Television - Marquee Moon",
+        "uri": "spotify:album:630o1rKTDsLeIPreOY1jqP",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0008857960",
+        "name": "Fountains of Wayne - Fountains of Wayne",
+        "uri": "spotify:album:4I9PfbZ1ErduBZWTimzz2s",
+        "play_mode": "NORMAL"
+    },
+    {   
+        "id": "0002959164",
+        "name": "Record Player",
+        "uri": "http://192.168.86.100:8000/record-player.mp3",
+        "play_mode": "NORMAL"
+    },
+    {
+        "id": "0003009000",
+        "name": "Christmas",
+        "uri": "spotify:user:1cvmgde4qkljm5l4lf6okbgb6:playlist:4bl9M5ji1Sbq6gzW0TTz5G",
+        "play_mode": "SHUFFLE"
     }
 ]

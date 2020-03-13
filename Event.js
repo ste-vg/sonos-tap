@@ -3,7 +3,15 @@ const Sonos = require('sonos').Sonos;
 const hue = require("node-hue-api");
 const HueApi = hue.HueApi;
 const Lights = require('./Lights').Lights;
+
+Sonos.prototype.getSpotifyConnectInfo = async function () {
+    const uri = `http://${this.host}:${this.port}/spotifyzc?action=getInfo`
+    return request(uri).then(response => response.data)
+  }
+  
 const sonoses = settings.sonos.map(s => new Sonos(s.ip));
+
+
 
 function setAvailabilty(sonos)
 {
@@ -275,6 +283,9 @@ class ActionEvent
             case 'VOLUME_HIGH':
                 this.setVolume('high');
                 break;
+            case 'TOGGLE_PLAYBACK':
+                this.togglePlayback();
+                break;
         }
     }
 
@@ -305,6 +316,16 @@ class ActionEvent
         Promise.all(getAvailableSonos().map(s => s.setVolume(settings.volumes[this.state.volume][s.host])))
             .then(success => null)
             .catch(err => this.onError(err))
+    }
+
+    togglePlayback()
+    {
+        const all = getAvailableSonos();
+        if(all.length)
+        {
+            all[0].togglePlayback();
+        }
+        
     }
 
     onError(err)

@@ -3,7 +3,7 @@
 const hue = require("node-hue-api");
 const HueApi = hue.HueApi;
 
-const host = "192.168.0.2";
+const host = "192.168.0.3";
 const username = "ollcM6-Lq4gu26VsXdEZUd-ts5PldIOsVxhdht6K";
 
 var EventModule = function() {};
@@ -15,6 +15,7 @@ class Lights
     {
         this.states = {};
         this.bulbs = [1,6,3,5,4];
+        this.allBulbs = [1,2,3,4,5,6,7,8,9,10];
         this.count = {};
 
         this.api = new HueApi(host, username);
@@ -70,6 +71,7 @@ class Lights
 
     onStartUp() 
     {
+        console.log('Lights: startup sequence');
         this.count.startup = this.bulbs.length;
         this.startUpOn()
     }
